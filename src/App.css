@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+
+.btn-on{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(248, 217, 15);
+  color: #222;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-light{
+  background: transparent;
+  color: #fff;
+}
+
+.btn-on:hover{
+  background: rgba(134, 133, 133, 0.195);
+  color: #fff;
+  transform: 0.3s;
+}

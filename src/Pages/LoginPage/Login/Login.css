@@ -1,0 +1,26 @@
+.login-container{
+    background-image: url('../../../assats/logo/bgloginImg.jpg');
+    background-size: cover;
+}
+
+.icon{
+    color: rgb(212, 212, 212);
+}
+.login-btn{
+    background-color: rgba(57, 211, 211, 0.678);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.login-btn:hover{
+    background-color: rgba(108, 255, 255, 0.766);
+}
+
+.bottom-link{
+    color: rgba(0, 0, 0, 0.71);
+    font-weight: 500;
+}
+.bottom-link:hover{
+    font-weight: 500;
+    text-decoration: underline;
+}
