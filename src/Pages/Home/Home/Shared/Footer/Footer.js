@@ -4,8 +4,12 @@ import logo from "../../../../../assats/logo/navberlogo.png";
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="footer p-10 bg-base-200 text-base-content">
+    <div
+      style={{
+        backgroundImage: `url(https://img.freepik.com/premium-vector/abstract-blue-dots-particles-wave-line-white-background-vector-illustration_78474-1060.jpg)`,
+      }}
+    >
+      <footer className="footer p-10 bg-opacity-10 bg-slate-400 text-base-content">
         <div>
           <img height={70} width={180} src={logo} alt="" />
           <p>

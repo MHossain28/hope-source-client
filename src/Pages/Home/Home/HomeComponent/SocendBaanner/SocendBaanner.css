@@ -1,0 +1,24 @@
+.socend-container{
+    background-color: rgba(197, 249, 255, 0.14);
+    
+}
+
+.logo-text{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    border-radius: 50%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    background-color: rgb(174, 174, 218);
+}
+.socend-banner-text{
+    color: rgb(0, 75, 187);
+}

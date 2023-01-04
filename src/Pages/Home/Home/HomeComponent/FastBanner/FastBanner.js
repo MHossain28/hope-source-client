@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
 import { AuthContext } from "../../../../../contexts/AuthProvider/AuthProvider";
+import { FaLongArrowAltRight } from "react-icons/fa";
+import "./FastBanner.css";
 
 const FastBanner = () => {
   // cheack user
@@ -29,7 +31,7 @@ const FastBanner = () => {
               Donation and help us for homeless people.We are a organization
               that helps for children people.
             </p>
-            <button className="btn-on btn-light mt-8">Get Started</button>
+            <button className="btn-on btn-light mt-8 donate-btn">Donate</button>
           </div>
         </div>
       </div>
